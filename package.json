@@ -1,0 +1,14 @@
+{
+  "name": "prospeccao-eu",
+  "version": "1.0.0",
+  "description": "SaaS de prospecção B2B europeia",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "dev": "echo \"Use separate terminals for 'npm run start:server' and 'npm run start:client'\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
